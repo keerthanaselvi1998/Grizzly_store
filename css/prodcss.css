@@ -1,0 +1,91 @@
+
+
+.form-inline{
+
+display:inline-block;
+}
+
+.topnav-right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+ display:inline-block;
+ 
+   
+}
+li {
+   padding: 2px;
+    width: 100px;
+    margin-left: auto ;
+    margin-right: auto ; }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.card-header
+{
+ background-color: #cccccc;width: 100%;height:3%;
+}
+
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
+.container11{
+margin-right:-250px;
+}
+.logout
+{
+                color:white;
+                border-radius: 30px;
+                background: #c0c0c0;
+                width:210px;
+                height: 35px;
+                margin-left:60px;
+                
+}
+.all
+{
+float:right;
+}
+.logout
+{
+                color:white;
+                border-radius: 30px;
+                background: #c0c0c0;
+                width:100px;
+                height: 35px;
+                margin-left:0px;
+                
+}
+.imgbgd
+{
+	color:grey;
+}
+

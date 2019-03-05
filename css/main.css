@@ -1,0 +1,33 @@
+hr.style2 {
+	border-top: 3px solid #8c8b8b;
+}
+
+.form-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}
+.center_div{
+	display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.center {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+.form-rounded {
+border-radius: 1rem;
+}
+input.roundcorner1{
+    border-radius: 18px;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;  
+ }
+button.btn1{
+    border-radius: 18px;
+    width: 100px;
+      
+ }

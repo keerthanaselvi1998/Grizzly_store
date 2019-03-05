@@ -1,0 +1,477 @@
+<html>
+
+<head>
+    <title>hello</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/prodcss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="prodjs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="well">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="jumbotron">
+                <div class="navbar-brand" href="#">
+                    <p> GRIZZLY <img src="images/Capture.png" width="30" height="30"> STORE</p>
+                </div>
+
+                <span class="navbar-toggler-icon"></span>
+
+                <div class="topnav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        </li>
+                        <li class="nav-item active">
+                        </li>
+                        <li class="nav-item active">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </li>
+                    </ul>
+                    <div class="topnav-right">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <img src="images/notification.png" width="30" height="30">
+                            </li>
+
+                            <li class="nav-item active">
+                                <p id="userid"> Welcome,
+                                    <a href="#name"> </a>
+                                </p>
+                            </li>
+                            <li class="nav-item active">
+                                <form>
+                                    <button type="button" class="btn"> Logout </button>
+                                </form>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+        </nav>
+        <div class="row">
+
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="col-container">
+                        <div class="card-header">
+                            <h5> PROFILE</h5>
+                        </div>
+                        <div><img class="card-img-top" src="images/Capture.png" width="200" height="20%" alt="Card image cap"></div>
+                        <div class="card-body">
+                            <p class="card-text" id="username">HELEN CHO</p>
+                            <div style="width: 25rem;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="">ID</li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class="">DESIGNATION</li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class="">OFFICE</li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="bs-example">
+                    <div class="card">
+                        <div class="card-title">
+                            <ul class="nav nav-tabs" border="1">
+                                <li class="active"><a data-toggle="pill" href="#products">PRODUCT</a></li>
+                                <li><a data-toggle="pill" href="#vendor">VENDOR</a></li>
+                                <li class="dropdown">
+                                    <a data-toggle="pill" href="#category">CATEGORY</a>                                    
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="tab-content clearfix"><div id="viewcat" class="tab-pane fade">
+
+                                <div class="col-lg-12">
+                                    <div class="row">
+					<p id="viewitem"></p> 
+                                    </div>
+                                </div>
+             			<div class="col-sm-3 col-md-6 col-lg-4">
+					<span class="border">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="images/Capture.png" alt="Los Angeles" style="width:100%;">
+        
+      </div>
+
+      <div class="item">
+        <img src="images/Capture.png" alt="Chicago" style="width:100%;">
+        
+      </div>
+    
+      <div class="item">
+        <img src="images/Capture.png" alt="New York" style="width:100%;">
+        
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+					</span>
+				</div>
+				<div class="col-sm-9 col-md-6 col-lg-8">
+					<div class="card">
+						 <h5 class="card-title">Product Description</h5>
+						<div class="card-body">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing
+elit, sed diam nonummy nibh euismod
+tincidunt ut laoreet dolore magna aliquam erat
+volutpat. Ut wisi enim ad minim veniam, quis
+nostrud exerci tation ullamcorper suscipit lobortis
+nisl ut aliquip ex ea commodo consequat.
+Duis autem vel eum iriure dolor in hendrerit in
+vulputate velit esse molestie consequat, vel
+illum dolore eu feugiat nulla facilisis at vero eros
+et accumsan et iusto odio dignissim qui blandit
+  						</div>
+					<div class="fixed-bottom">
+						<p><b>Rs.XXXX/- </b>15%off</p>
+					</div>
+					<div class="float-right">
+						<a href="#products" data-toggle="pill"><button type="button" class="btn btn-primary btn-sm">Finish</button>	</a>
+						<a href="#products" data-toggle="pill"><button type="button" class="btn btn-primary btn-sm">Cancel</button></a>
+					</div>
+					</div>
+                                </div>  
+                            </div>
+
+                            <div id="products" class="tab-pane fade in active">
+
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <input type="text" class="search form-control" placeholder="Search by ProductName/ID">
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <select class="search form-control" searchable="Search here..">
+                                                <option value="" disabled selected>Filter by Category</option>
+                                                <option value="1">Product List</option>
+                                                <option value="2">Brand</option>
+                                                <option value="3">Category</option>
+                                                <option value="3">Rating</option>
+
+                                            </select>
+
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <select class="search form-control" searchable="Search here..">
+                                                <option value="" disabled selected>Sort by..</option>
+                                                <option value="1">Product List</option>
+                                                <option value="2">Brand</option>
+                                                <option value="3">Category</option>
+                                                <option value="3">Rating</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="col-xs-3">
+
+                                            <button class="btn btn-dark" value="Add product">Add product</button>
+                                        </div>
+
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <table rules="all" class="table">
+                                    <tr class="d-flex">
+                                        <th>ProductsList</th>
+                                        <th width="5%">Brand</th>
+                                        <th width="10%">Category</th>
+                                        <th width="5%">Rating</th>
+                                        <th width="20%"></th>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td width="10%">Trimmer</td>
+                                        <td width="5%">Philips</td>
+                                        <td width="10%">PersonalCare</td>
+                                        <td width="5%">4.7</td>
+                                        <td colspan="3" width="20%">
+                                            <input type="text" class="logout" value="view" \>
+                                            <input type="text" class="logout" value="Back" \>
+                                            <input type="text" class="logout" value="Browse" \>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td>Shaver</td>
+                                        <td width="5%">Braun</td>
+                                        <td width="10%">PersonalCare</td>
+                                        <td width="5%">4.8</td>
+                                        <td colspan="3" width="20%">
+                                            <input type="text" class="logout" value="view" \>
+                                            <input type="text" class="logout" value="Back" \>
+                                            <input type="text" class="logout" value="Remove" \>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td>MacbookPro</td>
+                                        <td width="5%">Apple</td>
+                                        <td width="10%">Laptops</td>
+                                        <td width="5%">4.9</td>
+                                        <td colspan="3" width="20%">
+                                            <input type="text" class="logout" value="view" \>
+                                            <input type="text" class="logout" value="Back" \>
+                                            <input type="text" class="logout" value="Remove" \>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td>iMac27"</td>
+                                        <td width="5%">Apple</td>
+                                        <td width="10%">Laptops</td>
+                                        <td width="5%">4.6</td>
+                                        <td colspan="3" width="20%">
+                                            <input type="text" class="logout" value="view" \>
+                                            <input type="text" class="logout" value="Back" \>
+                                            <input type="text" class="logout" value="Remove" \>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td>Micron Pens</td>
+                                        <td width="5%">Sakura Pigma</td>
+                                        <td width="10%">ArtSupplies</td>
+                                        <td width="5%">4.1</td>
+                                        <td colspan="3" width="20%">
+                                            <input type="text" class="logout" value="view" \>
+                                            <input type="text" class="logout" value="Back" \>
+                                            <input type="text" class="logout" value="Remove" \>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td>PaintMarkers</td>
+                                        <td width="5%">Copic</td>
+                                        <td width="10%">ArtSupplies</td>
+                                        <td width="5%">4.2</td>
+                                        <td colspan="3" width="20%">
+                                            <input type="text" class="logout" value="view" \>
+                                            <input type="text" class="logout" value="Back" \>
+                                            <input type="text" class="logout" value="Remove" \>
+                                        </td>
+                                    </tr>
+
+                                </table>
+
+                            </div>
+
+                            <div id="vendor" class="tab-pane fade">
+                                
+
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <input type="text" class="search form-control" placeholder="Search by ProductName/ID">
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <select class="search form-control" searchable="Search here..">
+                                                <option value="" disabled selected>Filter by Category</option>
+                                                <option value="1">Product List</option>
+                                                <option value="2">Brand</option>
+                                                <option value="3">Category</option>
+                                                <option value="3">Rating</option>
+
+                                            </select>
+					</div><br>
+                                        <br>
+				     </div>
+				</div>
+                                     
+                                            <table rules="all" class="table">
+                                                <tr class="d-flex">
+                                                    <th>Vendor Name</th>
+                                                    <th width="5%">ID</th>
+                                                    <th width="10%">Location</th>
+                                                    <th width="5%">Contact</th>
+                                                    <th width="20%"></th>
+                                                </tr>
+                                                <tr class="d-flex">
+                                                    <td width="10%">M/S Agarwal</td>
+                                                    <td width="5%">MUM2134</td>
+                                                    <td width="10%">Mumbai</td>
+                                                    <td width="5%">1234567</td>
+                                                    <td colspan="3" width="20%">
+                                                        <input type="text" class="logout" value="view" \>
+                                                        <input type="text" class="logout" value="Block" \>
+                                                        <input type="text" class="logout" value="Browse" \>
+                                                    </td>
+                                                </tr>
+                                                <tr class="d-flex">
+                                                    <td>M/S Saravanam</td>
+                                                    <td width="5%">BLR3421</td>
+                                                    <td width="10%">Bengaluru</td>
+                                                    <td width="5%">1234567</td>
+                                                    <td colspan="3" width="20%">
+                                                        <input type="text" class="logout" value="view" \>
+                                                        <input type="text" class="logout" value="Block" \>
+                                                        <input type="text" class="logout" value="Remove" \>
+                                                    </td>
+                                                </tr>
+                                                <tr class="d-flex">
+                                                    <td>M/S Techshop</td>
+                                                    <td width="5%">HYD1290</td>
+                                                    <td width="10%">Hyderabad</td>
+                                                    <td width="5%">1234567</td>
+                                                    <td colspan="3" width="20%">
+                                                        <input type="text" class="logout" value="view" \>
+                                                        <input type="text" class="logout" value="Block" \>
+                                                        <input type="text" class="logout" value="Remove" \>
+                                                    </td>
+                                                </tr>
+                                                <tr class="d-flex">
+                                                    <td>M/S eStore</td>
+                                                    <td width="5%">CHN4564</td>
+                                                    <td width="10%">Chennai</td>
+                                                    <td width="5%">1234567</td>
+                                                    <td colspan="3" width="20%">
+                                                        <input type="text" class="logout" value="view" \>
+                                                        <input type="text" class="logout" value="Block" \>
+                                                        <input type="text" class="logout" value="Remove" \>
+                                                    </td>
+                                                </tr>
+                                                <tr class="d-flex">
+                                                    <td>M/S Apac</td>
+                                                    <td width="5%">DEL1209</td>
+                                                    <td width="10%">Delhi</td>
+                                                    <td width="5%">1234567</td>
+                                                    <td colspan="3" width="20%">
+                                                        <input type="text" class="logout" value="view" \>
+                                                        <input type="text" class="logout" value="Block" \>
+                                                        <input type="text" class="logout" value="Remove" \>
+                                                    </td>
+                                                </tr>
+                                                <tr class="d-flex">
+                                                    <td>M/S eKart</td>
+                                                    <td width="5%">BLR4521</td>
+                                                    <td width="10%">Bengaluru</td>
+                                                    <td width="5%">1234567</td>
+                                                    <td colspan="3" width="20%">
+                                                        <input type="text" class="logout" value="view" \>
+                                                        <input type="text" class="logout" value="Block" \>
+                                                        <input type="text" class="logout" value="Remove" \>
+                                                    </td>
+                                                </tr>
+
+                                            </table>
+
+                                        
+                                    </div>
+                                   <div id="category" class="tab-pane fade">
+                                
+
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <input type="text" class="search form-control" placeholder="Search by ProductName/ID">
+                                        </div>
+                                        <div class="col-xs-3">
+                                            <select class="search form-control" searchable="Search here..">
+                                                <option value="" disabled selected>Filter by Category</option>
+                                                <option value="1">Product List</option>
+                                                <option value="2">Brand</option>
+                                                <option value="3">Category</option>
+                                                <option value="3">Rating</option>
+
+                                            </select>
+					</div>
+					 <div class="col-xs-3">
+
+                                            <button class="btn btn-dark" value="Add product">Add product</button>
+                                        </div>
+                                        
+				     </div>
+				    </div><br><br>
+				<table rules="all" class="table">
+<tr class="d-flex">
+<th  width="5%">Category</th>
+<th width="25%">Description</th>
+<th width="4%">Product</th>
+<th width="25%"></th>
+</tr>
+<tr class="d-flex">
+<td>Personal Care</td>
+<td width="20%">Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit, sed diam nonummy nibh
+euismod tincidunt ut laoreet dolore magna
+aliquam erat volutpat. Ut wisi enim ad</td>
+<td >123</td>
+<td colspan="3" width="20%"><input type="text" class="logout" value="Edit"\>
+<input type="text" class="logout" value="Block"\>
+<input type="text" class="logout" value="Remove"\>
+</tr>
+<tr class="d-flex">
+<td>Electronics</td>
+<td width="20%">Lorem ipsum dolor sit amet, consectetuer</td>
+<td>90</td>
+<td colspan="3" width="20%"><input type="text" class="logout" value="Edit"\>
+<input type="text" class="logout" value="Block"\>
+<input type="text" class="logout" value="Remove"\>
+</tr>
+</tr>
+<tr class="d-flex">
+<td>Furniture</td>
+<td width="20%">Lorem ipsum</td>
+<td>57</td>
+<td colspan="3" width="20%"><input type="text" class="logout" value="Edit"\>
+<input type="text" class="logout" value="Block"\>
+<input type="text" class="logout" value="Remove"\>
+</tr>
+<tr class="d-flex">
+<td>Art Supplies</td>
+<td width="20%">Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit, sed diam nonummy nibh
+euismod tincidunt ut laoreet dolore magna</td>
+<td >800</td>
+<td colspan="3" width="20%"><input type="text" class="logout" value="Edit"\>
+<input type="text" class="logout" value="Block"\>
+<input type="text" class="logout" value="Remove"\>
+</tr>
+</table>
+
+
+				</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </DIV>
+</body>
+
+</html>
